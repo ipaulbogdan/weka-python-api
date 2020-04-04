@@ -1,0 +1,30 @@
+@relation loanPrediction
+
+
+@attribute Gender {Male,Female}
+
+@attribute Married {No,Yes}
+
+@attribute Dependents {0,1,2,3+}
+@attribute Education {Graduate,'Not Graduate'}
+
+@attribute Self_Employed {No,Yes}
+
+@attribute ApplicantIncome numeric
+
+@attribute CoapplicantIncome numeric
+
+@attribute LoanAmount numeric
+
+@attribute Loan_Amount_Term numeric
+
+@attribute Credit_History numeric
+
+@attribute Property_Area {Urban,Rural,Semiurban}
+
+@attribute Loan_Status {Y,N}
+
+
+@data
+
+Male,No,2,Graduate,Yes,1300,1000,20,12,1,Urban,?
